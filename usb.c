@@ -19,7 +19,7 @@ int main() {
         printf("--Registrar USB %d oziozi--\n", i + 1);
         printf("Registra el modelo: ");
         scanf("%19s", usb[i].modelo);
-        printf("Registra el almacenamiento (solo numeros): ");
+        printf("Registra el almacenamiento (solo numeros por favor): ");
         scanf("%d", &usb[i].almacenamiento);
         printf("Registra el precio: ");
         scanf("%f", &usb[i].precio);
@@ -37,7 +37,7 @@ int main() {
     int capacidad;
     int contador = 0;
 
-    printf("\nCuantos GB necesitas papu?\n");
+    printf("\nCuantos GB necesitas papu :v?\n");
     scanf("%d", &capacidad);
 
     printf("--- Resultados ---\n");
@@ -54,7 +54,7 @@ int main() {
     }
 
     if (contador == 0) {   // 3: usa contador, fuera del for
-        printf("No se encontraron USBs :,v\n");
+        printf("No se encontraron USBs lo sientooo :,v\n");
     }
 
     return 0;   
