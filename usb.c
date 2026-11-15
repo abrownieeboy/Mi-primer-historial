@@ -3,17 +3,17 @@
 /*Define los datos que tendra cada memoria USB*/
 struct MemoriaUSB {
     char modelo[20];
-    int almacenamiento;   // un solo número, no arreglo para almacenar la capacidad de almacenamiento
+    int almacenamiento;   // un solo número, no arreglo para almacenar la capacidad de almacenamientoo
     float precio;
 };
 
 int main() {
 
     /*Arreglo*/
-    // Agrupa las características de cada memoria USB.
+    // Agrupa las características de cada memoria USB
     struct MemoriaUSB usb[4];
 
-    // Recorre los registros para capturar los datos del usuario.
+    // Recorre los registros para capturar los datos del usuario
     for (int i = 0; i < 4; i++) {
 
         printf("--Registrar USB %d oziozi--\n", i + 1);
